@@ -1,0 +1,38 @@
+RÉSUMÉ EXERCICE 2 : LES ANAGRAMMES
+
+Pour vérifier si deux textes sont des anagrammes :
+
+1. Nettoyer les deux textes.
+2. Comparer leurs longueurs.
+3. Compter les lettres du premier texte.
+4. Vérifier les lettres du deuxième texte.
+5. Diminuer le compteur chaque fois qu'une lettre est utilisée.
+6. Retourner false si une lettre manque ou est utilisée trop de fois.
+7. Retourner true si toutes les vérifications réussissent.
+
+
+EXEMPLE SIMPLE
+
+Premier texte  : "gare"
+Deuxième texte : "rage"
+
+Les deux textes ont la même longueur.
+
+Nombre de lettres dans "gare" :
+
+g : 1
+a : 1
+r : 1
+e : 1
+
+On vérifie ensuite les lettres de "rage" :
+
+r passe de 1 à 0.
+a passe de 1 à 0.
+g passe de 1 à 0.
+e passe de 1 à 0.
+
+Toutes les lettres sont à 0.
+Les deux textes sont donc des anagrammes.
+
+Résultat : true

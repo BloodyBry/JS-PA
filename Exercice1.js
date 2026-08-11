@@ -32,6 +32,6 @@ function maskSensitiveData(input, type) {
     
 }
 
-console.log(maskSensitiveData("john.doe@gmail.com", "email"));
+console.log(maskSensitiveData("adnane@gmail.com", "email"));
 console.log(maskSensitiveData("0611223344", "phone"));
 console.log(maskSensitiveData("1111222233334444", "card"));

@@ -1,0 +1,8 @@
+// length    : donne le nombre de caractères.
+// [index]   : récupère un caractère selon sa position.
+// indexOf() : trouve la position d'un caractère ou d'un mot.
+// slice()   : extrait une partie d'une chaîne.
+// repeat()  : répète une chaîne plusieurs fois.
+// if/else   : choisit le traitement à effectuer.
+// return    : renvoie le résultat et arrête la fonction.
+// throw     : produit une erreur et arrête la fonction.
