@@ -1,0 +1,54 @@
+Objectif:
+
+La fonction aggregateSales(transactions) retourne :
+
+- totalRevenue : revenu total
+- salesByCategory :revenu de chaque catégorie 
+- topProduct : produit vendu en plus grande quantité.
+
+
+DEFINITIONS
+
+Montant d'une transaction :
+
+price * quantity
+
+reduce() : parcourt un tableau et construit un résultat.
+
+- Valeur initiale 0 : pour construire un nombre.
+- Valeur initiale {} : pour construire un objet.
+
+Object.keys(objet) : transforme les clés d'un objet en tableau.
+
+
+ÉTAPES
+
+1. Additionner price * quantity pour obtenir totalRevenue.
+
+2. Regrouper ces montants par category pour obtenir salesByCategory.
+
+3. Additionner quantity par id et chercher la plus grande quantité pour
+   obtenir topProduct.
+
+4. Retourner les trois résultats.
+
+
+EXEMPLE
+
+price = 299.99
+quantity = 2
+
+montant = 299.99 * 2 = 599.98
+
+
+RÉSULTAT FINAL
+
+{
+    totalRevenue: 1223.57,
+    salesByCategory: {
+        Electronics: 899.97,
+        Books: 124,
+        Fashion: 199.6
+    },
+    topProduct: "PROD-102"
+}
