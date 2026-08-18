@@ -1,0 +1,28 @@
+OBJECTIF
+
+deepFreeze(obj) bloque la modification de l'objet principal et de tous ses
+objets imbriqués.
+
+
+DÉFINITIONS
+
+Object.freeze(obj)
+Gèle uniquement le premier niveau d'un objet.
+
+deepFreeze(obj)
+Gèle l'objet et tous ses niveaux.
+
+Récursivité
+Une fonction qui s'appelle elle-même pour traiter les objets imbriqués.
+
+Object.getOwnPropertyNames(obj)
+Retourne les noms des propriétés de l'objet.
+
+WeakSet
+Mémorise les objets déjà visités et évite une récursion infinie.
+
+Référence circulaire
+Un objet qui fait référence à lui-même.
+
+Object.isFrozen(obj)
+Retourne true si l'objet est gelé.
